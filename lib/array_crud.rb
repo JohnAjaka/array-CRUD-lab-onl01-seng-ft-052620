@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  dog_breeds = [lab, newfie, retriever, bulldog]
+  dog_breeds = ["lab", "newfie", "retriever", "bulldog"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  dog_breeds.unshift()
+  dog_breeds.unshift("")
 end
 
 def remove_element_from_end_of_array(array)
