@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   dog_breeds << frenchie
-  puts dog_breeds
+  puts dog_breeds.inspect
 end
 
 def add_element_to_start_of_array(array, element)
